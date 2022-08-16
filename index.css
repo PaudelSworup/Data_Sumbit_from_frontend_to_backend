@@ -1,0 +1,24 @@
+.main{
+    width: 700px;
+    margin: 20px auto;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.sub-main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    outline: none;
+    border: none;
+    padding: 12px;
+}
+
+.input:focus{
+    background-color: black;
+    color: white;
+    transition: 4s ease-in;
+}
